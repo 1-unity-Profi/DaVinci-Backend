@@ -21,7 +21,7 @@ const scoreSchema = new mongoose.Schema({
   duration: {
     type: Number, // Spielzeit in Sekunden
     default: 0
-  }
+  } // ✅ FEHLTE: Diese Klammer
 }, {
   timestamps: true
 });
